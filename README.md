@@ -26,7 +26,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-**[Accordion](https://accordion-one-swart.vercel.app/)** The Accordion Project is a web application designed for creating interactive and collapsible accordion components. Developed with React, it offers a user-friendly interface for managing and displaying content in an organized manner. Users can easily expand or collapse sections, providing a dynamic and engaging experience. Hosted on Vercel for seamless accessibility.
+**[Accordion](https://accordion-one-swart.vercel.app/)** The Accordion Project is a web application crafted to build interactive and collapsible accordion components. Utilizing React, it presents a user-friendly interface for efficiently organizing and displaying content. Users can effortlessly expand or collapse sections, ensuring a dynamic and engaging user experience. The application is seamlessly hosted on Vercel for easy accessibility.
 
 ## 🛠 Built With <a name="built-with"></a>
 
