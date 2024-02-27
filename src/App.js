@@ -1,6 +1,6 @@
 import React from 'react';
 import Accordion from './component/accordion';
-import { DATA_LIST } from './component/data'; 
+import DATA_LIST from './component/data';
 
 function App() {
   return (
