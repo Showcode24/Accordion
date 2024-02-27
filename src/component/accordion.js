@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import AccordionRadioButtons from './radio_button.js';
+import AccordionRadioButtons from './radio_button';
 import AccordionItem from './accordionItem';
-
-
 
 const Accordion = ({ data }) => {
   const [isOpenMap, setIsOpenMap] = useState({});
-  // using an empty object as the initial state provides 
+  // using an empty object as the initial state provides
   // a flexible and dynamic way to manage the open/closed state of multiple items in a component
-  
+
   const [accordionType, setAccordionType] = useState('multiple');
 
   const toggleAccordion = (id) => {
@@ -32,14 +30,13 @@ const Accordion = ({ data }) => {
         {data.map((item) => (
           <AccordionItem
             key={item.id}
-            
             item={item}
             isOpen={isOpenMap[item.id]}
             onToggle={() => toggleAccordion(item.id)}
-            
+
           />
         ))}
-        
+
       </ul>
     </div>
   );
@@ -50,7 +47,7 @@ Accordion.propTypes = {
     PropTypes.shape({
       id: PropTypes.number.isRequired,
       // Add any other properties your 'data' items should have
-    })
+    }),
   ).isRequired,
 };
 export default Accordion;
